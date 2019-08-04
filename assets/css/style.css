@@ -149,9 +149,8 @@ footer {
 }
 
 @media only screen and (max-width:980px) {
-    /* .page-content {
+    .page-content {
         width: 65%;
-        float: left;
         margin-left: 25px;
         margin-top: 20px;
     }
@@ -178,11 +177,11 @@ footer {
 
     footer {
         position: fixed;
-    } */
+    }
 }
 
 @media only screen and (max-width:768px) {
-    /* .page-content {
+    .page-content {
         width: 95%;
         margin: 0 auto;
         margin-top: 15px;
@@ -195,13 +194,20 @@ footer {
     }
 
     .nav-content {
-        width: 95%;
-        margin: 0 auto;
+        width: 100%;
+    }
+
+    .name-logo {
+        margin-left: 20px;
+    }
+
+    .tab-group {
+        margin-right: 40px;
     }
 
     footer {
         position: fixed;
-    } */
+    }
 }
 
 @media only screen and (max-width:640px) {
@@ -222,6 +228,7 @@ footer {
     }
     
     .name-logo {
+        left: -20px;
         width: 100%;
         height:60px;
         text-align: center;
@@ -233,7 +240,6 @@ footer {
         width: 95%;
         margin: 0 auto;
         margin-top: 15px;
-
     }
 
     #bio-photo {
@@ -259,7 +265,8 @@ footer {
         margin-bottom: 0px;
     }
 
-    #about-footer {
-        position: sticky;
+    footer {
+        position: fixed;
+
     }
 }
